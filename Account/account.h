@@ -78,8 +78,8 @@ public:
 	// setters for private data members
 	void SetName(const string&);
 	void SetSurname(const string&);
-	void SetBirthday(const string&);
 	void SetAge(unsigned short);
+	void SetBirthday(const string&);
 	void SetHometown(const string&);
 	void SetCurrentCity(const string&);
 	void SetPhoneNumber(const string&);
@@ -89,8 +89,8 @@ public:
 	unsigned long long int GetID() const;
 	const string& GetName() const;
 	const string& GetSurname() const;
-	const string& GetBirthday() const;
 	unsigned short GetAge() const;
+	const string& GetBirthday() const;
 	const string& GetHometown() const;
 	const string& GetCurrentCity() const;
 	const string& GetPhoneNumber() const;

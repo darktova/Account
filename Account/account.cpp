@@ -278,13 +278,13 @@ void Account::CreateNewAccount()
 	cin >> surname;
 	SetSurname(surname);
 	
-	cout << "Enter your birthday in format  mm.dd.yyyy : ";
-	cin >> birthday;
-	SetBirthday(birthday);
-
 	cout << "Enter your age: ";
 	cin >> age;
 	SetAge(age);
+	
+	cout << "Enter your birthday in format  mm.dd.yyyy : ";
+	cin >> birthday;
+	SetBirthday(birthday);
 	
 	cout << "Enter your hometown: ";
 	cin >> hometown;
